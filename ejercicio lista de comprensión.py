@@ -1,5 +1,5 @@
 # Lista de temperaturas experimentales (en grados Celsius)
-temperaturas = [-200, -180, -150, -196, -100, 0, 25, 50, 100]
+temperaturas = [-300, -250, -200, -180, -150, -196, -100, 0, 25, 50, 100]
 
 # Lista vacía para almacenar las temperaturas gaseosas
 temperaturas_gaseosas = []
