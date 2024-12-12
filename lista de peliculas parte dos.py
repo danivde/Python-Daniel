@@ -19,7 +19,7 @@ def añadir_pelicula():
     else:
         director = input("Introduce el nombre del director: ").strip()
         año = input("Introduce el año de la película: ").strip()
-        presupuesto = input("Introduce el presupuesto de la película: ").strip()
+        presupuesto = input("Introduce el presupuesto de la película en millones de euros: ").strip()
 
         # Validar que los valores de año y presupuesto son números
         try:
@@ -50,7 +50,7 @@ def mostrar_peliculas():
         print("\nLista de Películas:")
         for pelicula, metadatos in peliculas.items():
             print(f"- {pelicula}")
-            print(f"  Director: {metadatos['director']}, Año: {metadatos['año']}, Presupuesto: {metadatos['presupuesto']}")
+            print(f"  Director: {metadatos['director']}, Año: {metadatos['año']}, Presupuesto en millones de euros: {metadatos['presupuesto ']}")
     else:
         print("No hay películas en la lista.")
 
@@ -90,7 +90,7 @@ def buscar_pelicula():
     pelicula = input("Introduce el nombre de la película que deseas buscar: ").strip()
     if pelicula in peliculas:
         print(f"La película '{pelicula}' está en la lista.")
-        print(f"  Director: {peliculas[pelicula]['director']}, Año: {peliculas[pelicula]['año']}, Presupuesto: {peliculas[pelicula]['presupuesto']}")
+        print(f"  Director: {peliculas[pelicula]['director']}, Año: {peliculas[pelicula]['año']}, Presupuesto: {peliculas[pelicula]['presupuesto en millones']}")
     else:
         print(f"La película '{pelicula}' no está en la lista.")
 
