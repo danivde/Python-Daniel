@@ -1,0 +1,7 @@
+Este es un nuevo contenido que sobrescribe el archivo.
+Añadiendo una nueva línea al final del archivo.
+Añadiendo otra línea con 'a' (sin lectura).
+
+LÃ­nea 1
+LÃ­nea 2
+LÃ­nea 3
