@@ -1,5 +1,4 @@
 import pandas as pd
-
 # Paso 1: Crear la Serie a partir de una lista de números
 numeros = [10, 20, 30, 40, 50]
 serie = pd.Series(numeros)
